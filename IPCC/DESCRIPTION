@@ -1,0 +1,36 @@
+Package: IPCC
+Type: Package
+Title: An integrated pipeline for cell communication analysis of single cell transcriptomics
+Version: 0.1.0
+Author: Yonglee1
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: An integrated pipeline for cell communication analysis of single cell transcriptomics
+    Using ipcc_cpdb function completes the analysis process of cellphonedb part, which can obtain more reliable ligand receptor pair prediction and cell subgroup communication. 
+    Using ipcc_cellchat1 completes the signal path analysis of cellchat. At this time, the console panel will display the predicted signal path, select the path of interest (in this example, the galectin path) and input it into the variables of ipcc_cellchat2 to complete the rest of the process analysis of cellchat, which can obtain the information of cell coordination mode and signal pathway. 
+    Use ipcc_nichenet function to complete the process analysis of nichenet. The analysis of this part can obtain the communication difference between pathological cells and normal cells and the target gene information of regulation.
+License: GPL-3
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.1.2
+Imports:Seurat,
+    cowplot,
+    ggplotify,
+    biomaRt,
+    reshape2,
+    patchwork,
+    tidyverse,
+    CellChat,
+    ggalluvial,
+    svglite,
+    ggplot2,
+    nichenetr
+    
+  
+  
+  
+  
+  
+
+
+
+
